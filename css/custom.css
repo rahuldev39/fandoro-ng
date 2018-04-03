@@ -1,0 +1,103 @@
+.brand-logo {
+    width: 200px;
+    display: block;
+    padding: 11px 0 10px 0px !important;
+}
+.brand-logo>img {
+    display: block;
+    width: 100%;
+}
+.login-wrapper {
+    min-height: calc(100vh - 96px);
+    padding: 45px 0px;
+    background-image: url(./../img/Triangle-White-Seamless-Patterns.jpg);
+    position: relative;
+}
+.login-wrapper:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: #ffffff8c;
+}
+.login-wrapper section {
+    position: relative;
+    z-index: 1;
+}
+.block-heading h2 {
+    position: relative;
+    padding-bottom: 9px;
+    margin-bottom: 23px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+.block-heading h2::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #ed1f24;
+    width: 100px;
+    left: 0px;
+    top: 100%;
+}
+.block.style-5 {
+    position: relative;
+}
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+.block-icon {
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
+.block-icon i {
+    font-size: 21px;
+    line-height: initial;
+    color: #ed1f24;
+    font-weight: normal;
+}
+.block-content {
+    padding-left: 28px;
+}
+.block-content .block-title {
+    padding: 0;
+    margin: 0 0 8px 0;
+    color: #282d33;
+    font-size: 16px;
+}
+.form-user.style-1 {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #e2e7ec;
+}
+.form-user.style-1 .form-header {
+    padding: 11px 0;
+    background-color: #ecf0f1;
+    border-bottom: 1px solid #ecf0f1;
+}
+.form-user.style-1 .form-header .form-header-title {
+    margin: 0;
+    padding: 0;
+    color: #1d1e1f;
+    font-size: 19px;
+    font-weight: 500;
+}
+.form-user.style-1 .form-body {
+    padding: 25px;
+    background-color: #fff;
+}
+.form-user.style-1 .form-footer {
+    padding: 10px 0;
+    background-color: #ecf0f1;
+    border-top: 1px solid #ecf0f1;
+}
+.text-center {
+    text-align: center !important;
+}
+.btn-block{
+  width: 100%
+}
